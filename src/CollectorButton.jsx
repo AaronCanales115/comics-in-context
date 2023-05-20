@@ -3,11 +3,11 @@ import StyleContext from "./StyleContext";
 
 export default function CollectorButton() {
   
-  const buttonStyling = useContext(StyleContext)
+  const styling = useContext(StyleContext)
 
   return (
     <div>
-      <button style={buttonStyling}>
+      <button style={styling}>
         Click Here!
       </button>
     </div>
